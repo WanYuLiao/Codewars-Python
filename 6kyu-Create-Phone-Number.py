@@ -10,7 +10,7 @@ create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) => returns "(123) 456-7890"
 
 """
 # Version 1
-def create_phone_number(n):
+def create_phone_number_ver1(n):
     # Your code goes here
     n = str(n)
     phone_number = '('
@@ -26,8 +26,8 @@ def create_phone_number(n):
                 phone_number += '-'               
     return phone_number
     
- # Version 2
- def create_phone_number_ver2(n):
+# Version 2
+def create_phone_number_ver2(n):
     # Your code goes here
     n = str(n)
     phone_number = '('
@@ -42,3 +42,6 @@ def create_phone_number(n):
             if i == 5:
                 phone_number += '-'               
     return phone_number
+# Test Run
+print (create_phone_number_ver1(1234567890))
+print (create_phone_number_ver2(9876543211))    
