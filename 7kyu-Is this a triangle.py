@@ -1,5 +1,5 @@
 """
-Is this a triangle? Ver.1
+Is this a triangle?
 7kyu
 
 Implement a method that accepts 3 integer values a, b, c. 
